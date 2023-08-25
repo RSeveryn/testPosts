@@ -1,0 +1,34 @@
+.favorites {
+    padding: 1em;
+    background-color: grey;
+    color: white;
+    position: sticky;
+    top: 1em;
+    height: min-content;
+}
+
+.postItem:not(:first-child) {
+    margin-top: 1em;
+}
+
+.post {
+    background-color: lightcoral;
+    color: white;
+    padding: 1em;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: 1fr 20em;
+    grid-column-gap: 1em;
+    padding: 1em;
+}
+
+.favButton {
+    padding: 1em;
+    color: lightcoral;
+}
+
+.favButton:hover {
+    cursor: pointer;
+}
